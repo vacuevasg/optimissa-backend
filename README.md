@@ -41,6 +41,8 @@ http://localhost:8080/h2-console
 
 ## ENDPOINTS (orden recomendado):
 
+Por favor usar la colección de postman incluida en este repositorio.
+
 1. POST http://localhost:8080/auth/login
    - Request Body:
      { "email": "admin@example.com", "password": "admin123" }
