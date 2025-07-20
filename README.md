@@ -2,6 +2,12 @@
 
 Este proyecto es una API REST desarrollada con Java 11 y Spring Boot que implementa autenticación JWT, catálogos filtrables, consumo de APIs externas, y cifrado AES.
 
+El proyecto se desplegó en mi infraestructura privada de AWS para su conveniencia:
+
+```bash
+https://optimissa-back.proyectosvc.com
+```
+
 ## Tecnologías utilizadas
 
 - Java 11
@@ -27,11 +33,15 @@ mvn spring-boot:run
 
 URL aplicación:
 
+```bash
+https://optimissa-back.proyectosvc.com
 http://localhost:8080
+```
 
 
 Acceso a H2:
 
+https://optimissa-back.proyectosvc.com/h2-console
 http://localhost:8080/h2-console
 
 - JDBC URL: jdbc:h2:mem:testdb
@@ -43,7 +53,7 @@ http://localhost:8080/h2-console
 
 Por favor usar la colección de postman incluida en este repositorio.
 
-1. POST http://localhost:8080/auth/login
+1. POST http://localhost:8080/auth/login o https://optimissa-back.proyectosvc.com/auth/login
    - Request Body:
      { "email": "admin@example.com", "password": "admin123" }
    - Devuelve el token JWT que se debe usar en todos los demás endpoints.
