@@ -2,7 +2,7 @@
 
 Este proyecto es una API REST desarrollada con Java 11 y Spring Boot que implementa autenticación JWT, catálogos filtrables, consumo de APIs externas, y cifrado AES.
 
-El proyecto se desplegó en mi infraestructura privada de AWS para su conveniencia:
+El proyecto se encuentra desplegado en mi infraestructura privada de AWS para su conveniencia. Para probarlo, puede seguir las instrucciones de despliegue o utilizar la siguiente URL:
 
 ```bash
 https://optimissa-back.proyectosvc.com
